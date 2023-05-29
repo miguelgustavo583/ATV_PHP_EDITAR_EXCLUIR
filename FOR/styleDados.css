@@ -1,0 +1,40 @@
+.titles{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.boxDados{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.headerTable{
+    background-color: #007bff;
+}
+
+th{
+    color: white;
+}
+
+.titleDado{
+    text-align: center;
+    font-weight: bold;
+    margin-right: 3%;
+    font-size: 1.2em;
+}
+
+#tabela{
+    max-width: 900px;
+}
+
+.btnAcao{
+    text-decoration: none;
+}
+
+@media (max-width: 580px){
+    #tabela{
+        overflow: scroll;
+    }
+}
